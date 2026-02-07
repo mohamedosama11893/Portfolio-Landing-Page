@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portofolio landing page" />
+    <meta name="author" content="Mohamed Osama" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mohamed Osama</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <!-- Starts Container of the Page -->
+    <div class="container">
+      <video class="video-loop" autoplay loop muted>
+        <source src="./video-loop.mp4" type="video/mp4" />
+      </video>
+      <!-- Starts Header -->
+      <header class="header">
+        <label class="burger-menu" for="menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input id="menu" class="burger-menu__checkbox" type="checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#media" class="navigation__link navigation__media"
+                >Media</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My Clients</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+      <!-- Ends Header -->
+      <!-- Starts Bio -->
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I’M A Passionate Software Engineer
+          </h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Mohamed Osama</span>, Electrical
+            Engineer and Software Engineering learner you can find me on
+            <a
+              href="https://www.facebook.com/mohamedosamaabdelrehim/"
+              class="bio__facebook"
+              >Facebook</a
+            >,&nbsp;
+            <a
+              href="https://www.linkedin.com/in/mohamedosamaabdelrehim/"
+              class="bio__linkedin"
+              >LinkedIn</a
+            >,&nbsp;
+            <a href="mailto:mohamedosama11893@gmail.com" class="bio__email"
+              >E-mail</a
+            >
+          </p>
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a
+            href="./Mohamed Osama Abdelrehim.pdf"
+            class="bio__links find-out-link"
+            >Download CV <span class="bio__arrow">🠇</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img
+            class="bio__pic"
+            src="./images/personal-pic-1.webp"
+            alt="personal-pic"
+          />
+        </div>
+      </section>
+      <!-- Ends Bio -->
+      <!-- Starts Skills -->
+      <section id="skills" class="skills section section--with-bg">
+        <h2 class="h2-heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__column">
+            <div class="skill__column-left">
+              <svg
+                class="skills__image"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"
+              >
+                <!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+                <path
+                  d="M128 96L162.9 491.8L319.5 544L477.1 491.8L512 96L128 96zM436.2 223.9L252.4 223.9L256.5 273.3L432.1 273.3L418.5 421.7L320.6 448.7L320.6 449L319.5 449L220.8 421.7L214.8 345.9L262.5 345.9L266 384L319.5 398.5L373.2 384L379.2 321.8L212.3 321.8L199.5 176.2L440.6 176.2L436.2 223.9z"
+                />
+              </svg>
+            </div>
+            <div class="skills__column-right">
+              <h2 class="skills__title">HTML</h2>
+              <span class="skills__years">2 years</span>
+            </div>
+          </li>
+          <li class="skills__column">
+            <div class="skills__column-left">
+              <svg
+                class="skills__image"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"
+              >
+                <!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+                <path
+                  d="M472.3 96L96 96L96 472.3C96 491.3 103.6 509.5 117 523C130.4 536.5 148.7 544 167.7 544L472.3 544C491.3 544 509.5 536.4 523 523C536.5 509.6 544 491.3 544 472.3L544 167.7C544 148.7 536.4 130.5 523 117C509.6 103.5 491.3 96 472.3 96zM428.4 495.4C420.7 486.9 416.7 474.7 416.4 458.8L447.7 458.8C447.9 472.9 452.8 479.9 462.5 479.9C467.4 479.9 470.9 478.3 473 475.2C475 472.1 476 467.2 476 460.4C476 455 474.7 450.5 472 447C468.5 442.8 463.9 439.5 458.8 437.5L447.2 432C436.9 427.1 429.4 421.2 424.7 414.4C420.2 407.6 418 398.1 418 386C418 372.4 422 361.4 429.8 352.9C437.9 344.4 448.9 340.2 463 340.2C476.6 340.2 487.1 344.4 494.5 352.7C502 361.1 506 373 506.3 388.6L476.2 388.6C476.4 383.5 475.3 378.4 473.2 373.8C471.5 370.4 468.2 368.7 463.2 368.7C454.4 368.7 450 373.9 450 384.4C450 389.7 451.1 393.8 453.2 397C456.3 400.5 460.2 403.2 464.6 404.8L475.7 409.7C487.2 415 495.4 421.4 500.5 429.1C505.6 436.8 508.1 447.1 508.1 460.1C508.1 475.6 504.1 487.5 495.8 495.8C487.6 504.1 476.3 508.3 461.7 508.3C447.1 508.3 436.1 504.1 428.3 495.6zM327.4 495.4C319.7 486.9 315.7 474.7 315.4 458.8L346.7 458.8C346.9 472.9 351.8 479.9 361.5 479.9C366.4 479.9 369.9 478.3 371.9 475.2C373.9 472.1 374.9 467.2 374.9 460.4C374.9 455 373.6 450.5 371 447C367.5 442.8 362.9 439.5 357.8 437.5L346.2 432C335.9 427.1 328.4 421.2 323.7 414.4C319.2 407.6 317 398.1 317 386C317 372.4 321 361.4 328.8 352.9C336.9 344.4 347.9 340.2 362 340.2C375.6 340.2 386.1 344.4 393.4 352.7C401 361.1 404.9 373 405.3 388.6L375.2 388.6C375.4 383.5 374.3 378.4 372.2 373.8C370.5 370.4 367.2 368.7 362.2 368.7C353.4 368.7 349 373.9 349 384.4C349 389.7 350.1 393.8 352.2 397C355.3 400.5 359.2 403.2 363.6 404.8L374.7 409.7C386.2 415 394.4 421.4 399.5 429.1C404.6 436.8 407.1 447.1 407.1 460.1C407.1 475.6 403 487.5 394.8 495.8C386.6 504.1 375.3 508.3 360.7 508.3C346.1 508.3 335.1 504.1 327.3 495.6zM221.8 496.5C213.4 488.8 209.3 477.3 209.3 462L209.3 386.6C209.3 371.4 213.7 359.9 222.5 352C231.4 344.2 243.2 340.2 257.7 340.2C271.8 340.2 282.9 344.2 291.1 352.2C299.4 360.2 303.6 372.2 303.6 388.1L303.6 394.1L270.5 394.1L270.5 388.3C270.5 382.2 269.2 377.6 266.5 374.7C265.4 373.2 263.9 372 262.2 371.2C260.5 370.4 258.7 370 256.8 370.1C251.4 370.1 247.6 371.9 245.4 375.7C243.1 380.9 242.1 386.5 242.4 392.1L242.4 457.6C242.4 471.3 247.2 478.2 256.8 478.4C261.3 478.4 264.7 476.8 267 473.6C269.5 469.5 270.7 464.8 270.5 460L270.5 455.1L303.6 455.1L303.6 460.2C303.6 470.8 301.5 479.7 297.4 486.8C293.4 493.7 287.5 499.3 280.3 502.8C272.6 506.5 264.2 508.3 255.7 508.1C241.5 508.1 230.2 504.2 221.9 496.5z"
+                />
+              </svg>
+            </div>
+            <div class="skills__column-right">
+              <h2 class="skills__title">CSS</h2>
+              <span class="skills__years">2 years</span>
+            </div>
+          </li>
+          <li class="skills__column">
+            <div class="skills__column-left">
+              <svg
+                class="skills__image"
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="83"
+                height="83"
+                viewBox="0 0 50 50"
+              >
+                <path
+                  d="M 43.335938 4 L 6.667969 4 C 5.195313 4 4 5.195313 4 6.667969 L 4 43.332031 C 4 44.804688 5.195313 46 6.667969 46 L 43.332031 46 C 44.804688 46 46 44.804688 46 43.335938 L 46 6.667969 C 46 5.195313 44.804688 4 43.335938 4 Z M 27 36.183594 C 27 40.179688 24.65625 42 21.234375 42 C 18.140625 42 15.910156 39.925781 15 38 L 18.144531 36.097656 C 18.75 37.171875 19.671875 38 21 38 C 22.269531 38 23 37.503906 23 35.574219 L 23 23 L 27 23 Z M 35.675781 42 C 32.132813 42 30.121094 40.214844 29 38 L 32 36 C 32.816406 37.335938 33.707031 38.613281 35.589844 38.613281 C 37.171875 38.613281 38 37.824219 38 36.730469 C 38 35.425781 37.140625 34.960938 35.402344 34.199219 L 34.449219 33.789063 C 31.695313 32.617188 29.863281 31.148438 29.863281 28.039063 C 29.863281 25.179688 32.046875 23 35.453125 23 C 37.878906 23 39.621094 23.84375 40.878906 26.054688 L 37.910156 27.964844 C 37.253906 26.789063 36.550781 26.328125 35.453125 26.328125 C 34.335938 26.328125 33.628906 27.039063 33.628906 27.964844 C 33.628906 29.109375 34.335938 29.570313 35.972656 30.28125 L 36.925781 30.691406 C 40.171875 32.078125 42 33.496094 42 36.683594 C 42 40.117188 39.300781 42 35.675781 42 Z"
+                ></path>
+              </svg>
+            </div>
+            <div class="skills__column-right">
+              <h2 class="skills__title">Javascript</h2>
+              <span class="skills__years">in progress</span>
+            </div>
+          </li>
+          <li class="skills__column">
+            <div class="skills__column-left">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="100"
+                height="100"
+                viewBox="0 0 48 48"
+              >
+                <path
+                  class="python-path-one"
+                  d="M24.047,5c-1.555,0.005-2.633,0.142-3.936,0.367c-3.848,0.67-4.549,2.077-4.549,4.67V14h9v2H15.22h-4.35c-2.636,0-4.943,1.242-5.674,4.219c-0.826,3.417-0.863,5.557,0,9.125C5.851,32.005,7.294,34,9.931,34h3.632v-5.104c0-2.966,2.686-5.896,5.764-5.896h7.236c2.523,0,5-1.862,5-4.377v-8.586c0-2.439-1.759-4.263-4.218-4.672C27.406,5.359,25.589,4.994,24.047,5z M19.063,9c0.821,0,1.5,0.677,1.5,1.502c0,0.833-0.679,1.498-1.5,1.498c-0.837,0-1.5-0.664-1.5-1.498C17.563,9.68,18.226,9,19.063,9z"
+                ></path>
+                <path
+                  class="python-path-two"
+                  d="M23.078,43c1.555-0.005,2.633-0.142,3.936-0.367c3.848-0.67,4.549-2.077,4.549-4.67V34h-9v-2h9.343h4.35c2.636,0,4.943-1.242,5.674-4.219c0.826-3.417,0.863-5.557,0-9.125C41.274,15.995,39.831,14,37.194,14h-3.632v5.104c0,2.966-2.686,5.896-5.764,5.896h-7.236c-2.523,0-5,1.862-5,4.377v8.586c0,2.439,1.759,4.263,4.218,4.672C19.719,42.641,21.536,43.006,23.078,43z M28.063,39c-0.821,0-1.5-0.677-1.5-1.502c0-0.833,0.679-1.498,1.5-1.498c0.837,0,1.5,0.664,1.5,1.498C29.563,38.32,28.899,39,28.063,39z"
+                ></path>
+              </svg>
+            </div>
+            <div class="skills__column-right">
+              <h2 class="skills__title">Python</h2>
+              <span class="skills__years">1 year</span>
+            </div>
+          </li>
+          <li class="skills__column">
+            <div class="skills__column-left">
+              <svg
+                class="skills__image"
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="83"
+                height="83"
+                viewBox="0 0 50 50"
+              >
+                <path
+                  d="M45,4H5C4.447,4,4,4.448,4,5v40c0,0.552,0.447,1,1,1h40c0.553,0,1-0.448,1-1V5C46,4.448,45.553,4,45,4z M29,26.445h-5V42h-4	V26.445h-5V23h14V26.445z M30.121,41.112v-4.158c0,0,2.271,1.712,4.996,1.712c2.725,0,2.62-1.782,2.62-2.026	c0-2.586-7.721-2.586-7.721-8.315c0-7.791,11.25-4.717,11.25-4.717l-0.14,3.704c0,0-1.887-1.258-4.018-1.258s-2.9,1.013-2.9,2.096	c0,2.795,7.791,2.516,7.791,8.141C42,44.955,30.121,41.112,30.121,41.112z"
+                ></path>
+              </svg>
+            </div>
+            <div class="skills__column-right">
+              <h2 class="skills__title">Typescript</h2>
+              <span class="skills__years">in progress</span>
+            </div>
+          </li>
+          <li class="skills__column">
+            <div class="skills__column-left">
+              <svg
+                class="skills__image"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"
+              >
+                <!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+                <path
+                  d="M482.2 241.2C476.8 239.4 471.4 237.7 466 236.1C466.9 232.4 467.7 228.7 468.5 225C480.8 165.4 472.7 117.5 445.4 101.7C419.1 86.6 376.2 102.3 332.8 140.1C328.5 143.8 324.3 147.7 320.3 151.6C317.6 149 314.8 146.4 312 143.9C266.5 103.5 220.9 86.5 193.6 102.4C167.4 117.6 159.6 162.7 170.6 219.1C171.7 224.7 172.9 230.2 174.3 235.8C167.9 237.6 161.6 239.6 155.7 241.7C102.3 260.2 64 289.4 64 319.6C64 350.8 104.8 382.1 160.3 401.1C164.8 402.6 169.3 404.1 173.9 405.4C172.4 411.4 171.1 417.3 169.9 423.4C159.4 478.9 167.6 522.9 193.8 538C220.8 553.6 266.2 537.6 310.4 498.9C313.9 495.8 317.4 492.6 320.9 489.2C325.3 493.5 329.9 497.6 334.5 501.6C377.3 538.4 419.6 553.3 445.7 538.2C472.7 522.6 481.5 475.3 470.1 417.7C469.2 413.3 468.2 408.8 467.1 404.2C470.3 403.3 473.4 402.3 476.5 401.3C534.2 382.2 576 351.3 576 319.6C576 289.3 536.6 259.9 482.2 241.2zM346.9 156.3C384.1 123.9 418.8 111.2 434.6 120.3C451.5 130 458 169.2 447.4 220.7C446.7 224.1 446 227.4 445.1 230.7C422.9 225.7 400.4 222.1 377.8 220.1C364.8 201.5 350.6 183.7 335.2 167C339.1 163.3 342.9 159.8 346.9 156.3zM231.2 371.5C236.3 380.2 241.5 388.9 247 397.4C231.4 395.7 215.9 393.2 200.6 389.9C205 375.5 210.5 360.6 216.9 345.4C221.5 354.2 226.2 362.9 231.2 371.5zM200.9 251.2C215.3 248 230.6 245.4 246.5 243.4C241.2 251.7 236 260.2 231.1 268.8C226.2 277.3 221.4 286 216.9 294.8C210.6 279.9 205.3 265.3 200.9 251.2zM228.3 320.1C234.9 306.3 242.1 292.8 249.7 279.5C257.3 266.2 265.5 253.3 274.1 240.6C289.1 239.5 304.4 238.9 320 238.9C335.6 238.9 351 239.5 365.9 240.6C374.4 253.2 382.5 266.1 390.2 279.3C397.9 292.5 405.1 306 411.9 319.7C405.2 333.5 398 347.1 390.3 360.5C382.7 373.8 374.6 386.7 366.1 399.5C351.2 400.6 335.7 401.1 320 401.1C304.3 401.1 289.1 400.6 274.4 399.7C265.7 387 257.5 374 249.8 360.7C242.1 347.4 235 333.9 228.3 320.1zM408.9 371.3C414 362.5 418.8 353.6 423.5 344.6C429.9 359.1 435.5 373.8 440.4 388.9C424.9 392.4 409.2 395.1 393.4 396.9C398.8 388.5 403.9 379.9 408.9 371.3zM423.3 294.8C418.6 286 413.8 277.2 408.8 268.6C403.9 260.1 398.8 251.7 393.5 243.4C409.6 245.4 425 248.1 439.4 251.4C434.8 266.2 429.4 280.6 423.3 294.8zM320.2 182.3C330.7 193.7 340.6 205.7 349.8 218.1C330 217.2 310.1 217.2 290.3 218.1C300.1 205.2 310.2 193.2 320.2 182.3zM204.2 121C221 111.2 258.3 125.2 297.6 160C300.1 162.2 302.6 164.6 305.2 167C289.7 183.7 275.4 201.5 262.3 220.1C239.7 222.1 217.3 225.6 195.1 230.5C193.8 225.4 192.7 220.2 191.6 215C182.2 166.6 188.4 130.1 204.2 121zM179.7 384.6C175.5 383.4 171.4 382.1 167.3 380.7C146 374 121.8 363.4 104.3 349.5C94.2 342.5 87.4 331.7 85.5 319.6C85.5 301.3 117.1 277.9 162.7 262C168.4 260 174.2 258.2 180 256.5C186.8 278.2 195 299.5 204.5 320.1C194.9 341 186.6 362.6 179.7 384.6zM296.3 482.6C279.8 497.7 260.7 509.7 239.9 517.9C228.8 523.2 216 523.7 204.6 519.2C188.7 510 182.1 474.7 191.1 427.2C192.2 421.6 193.4 416 194.8 410.5C217.2 415.3 239.8 418.6 262.7 420.3C275.9 439 290.4 456.9 305.9 473.7C302.7 476.8 299.5 479.8 296.3 482.6zM320.8 458.3C310.6 447.3 300.4 435.1 290.5 422C300.1 422.4 310 422.6 320 422.6C330.3 422.6 340.4 422.4 350.4 421.9C341.2 434.6 331.3 446.7 320.8 458.3zM451.5 488.3C450.6 500.5 444.6 511.9 435 519.6C419.1 528.8 385.2 516.8 348.6 485.4C344.4 481.8 340.2 477.9 335.9 473.9C351.2 457 365.3 439.1 378.1 420.3C401 418.4 423.8 414.9 446.3 409.8C447.3 413.9 448.2 418 449 422C453.9 443.6 454.7 466.1 451.5 488.3zM469.7 380.8C466.9 381.7 464.1 382.6 461.2 383.4C454.2 361.6 445.6 340.3 435.7 319.6C445.3 299.2 453.4 278.2 460.2 256.7C465.4 258.2 470.4 259.8 475.2 261.4C521.8 277.4 554.5 301.2 554.5 319.4C554.5 339 519.6 364.3 469.7 380.8zM320 365.8C345.3 365.8 365.8 345.3 365.8 320C365.8 294.7 345.3 274.2 320 274.2C294.7 274.2 274.2 294.7 274.2 320C274.2 345.3 294.7 365.8 320 365.8z"
+                />
+              </svg>
+            </div>
+            <div class="skills__column-right">
+              <h2 class="skills__title">React</h2>
+              <span class="skills__years">in progress</span>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- Ends Skills -->
+      <!-- Starts Projects -->
+      <section id="projects" class="projects section">
+        <h2 class="h2-heading">
+          My Featured <br />
+          Projects
+        </h2>
+        <div class="projects__main">
+          <img
+            class="projects__img"
+            src="./images/project-1.jpg"
+            alt="Quran Tab Extension"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              Quran Tap <br />
+              Landing Page
+            </h3>
+            <p class="projects__description">
+              Quran Tab is an Islamic new tab page that will keep you inspired
+              by a verse from the Quran every time you open a new tab that helps
+              you achieve your "Khatma" and keeps you connected with the words
+              of Allah.
+            </p>
+            <a
+              href="https://mohamedosama11893.github.io/qurantab-landing-page/"
+              class="projects__link"
+              target="_blank"
+              >Live View</a
+            >
+            <span>-</span>
+            <a
+              href="https://github.com/mohamedosama11893/qurantab-landing-page/"
+              class="projects__link"
+              target="_blank"
+              >Repository</a
+            >
+            <span>-</span>
+            <a href="#" class="projects__link">Chrome Link</a>
+            <span>-</span>
+            <a href="#" class="projects__link">Edge Link</a>
+          </div>
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              LaslesVPN<br />
+              Network Needs
+            </h3>
+            <p class="projects__description">
+              A fully responsive landing page built as part of my front-end
+              development learning journey. This project focuses on clean
+              structure, modern layouts, and responsive design across all
+              devices.
+            </p>
+            <a
+              href="https://mohamedosama11893.github.io/12-HTML-and-CSS-Project--LaslesVPN-/"
+              class="projects__link"
+              target="_blank"
+              >Live View</a
+            >
+            <span>-</span>
+            <a
+              href="https://github.com/mohamedosama11893/12-HTML-and-CSS-Project--LaslesVPN-/"
+              class="projects__link"
+              target="_blank"
+              >Repository</a
+            >
+          </div>
+          <img
+            class="projects__img"
+            src="./images/project-2.jpg"
+            alt="LaslesVPN page"
+          />
+        </div>
+      </section>
+      <!-- Ends Projects -->
+      <!-- Starts Clients -->
+      <section id="clients" class="clients section section--with-bg">
+        <h2 class="h2-heading">
+          What My <br />
+          Clients Says
+        </h2>
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              Osama has the advantageous ability to understand a problem and
+              implement code to a high standard within the deadline. Each
+              project we have worked on, I know I can completely trust Osama to
+              own his tasks and complete what is needed when asked of him.
+            </p>
+            <p class="clients__opinion">
+              Mohamed will patiently listen to you and give you his own Ideas as
+              well, and in the end, he comes up with something completely
+              different from what you’re expecting, but the good news is, you’ll
+              always love it.
+            </p>
+            <p class="clients__opinion">
+              I had a chance to work closely with Mohamed as a direct manager.
+              Mohamed's biggest strengths that I admire. We are taking
+              initiatives on personal and team level, he is fantastic.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Ends Clients -->
+      <!-- Starts Contacts -->
+      <section id="contact" class="contact section">
+        <div class="contact__info">
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we may be a few time zones away.
+          </p>
+          <a href="mailto:mohamedosama11893@gmail.com" class="contact__email"
+            >mohamedosama11893@gmail.com</a
+          >
+          <div class="contact__socials">
+            <a
+              href="https://www.facebook.com/mohamedosamaabdelrehim/"
+              class="contact__social"
+              target="_blank"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="contact__social-color"
+                  d="M2.00195 12.002C2.00312 16.9214 5.58036 21.11 10.439 21.881V14.892H7.90195V12.002H10.442V9.80198C10.3284 8.75952 10.6845 7.72058 11.4136 6.96692C12.1427 6.21325 13.1693 5.823 14.215 5.90198C14.9655 5.9141 15.7141 5.98095 16.455 6.10198V8.56098H15.191C14.7558 8.50399 14.3183 8.64771 14.0017 8.95165C13.6851 9.25559 13.5237 9.68687 13.563 10.124V12.002H16.334L15.891 14.893H13.563V21.881C18.8174 21.0506 22.502 16.2518 21.9475 10.9611C21.3929 5.67035 16.7932 1.73991 11.4808 2.01716C6.16831 2.29441 2.0028 6.68229 2.00195 12.002Z"
+                  fill="#333333"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://github.com/mohamedosama11893"
+              class="contact__social"
+              target="_blank"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="contact__social-color"
+                  d="M12.026 2C7.13295 1.99937 2.96183 5.54799 2.17842 10.3779C1.395 15.2079 4.23061 19.893 8.87302 21.439C9.37302 21.529 9.55202 21.222 9.55202 20.958C9.55202 20.721 9.54402 20.093 9.54102 19.258C6.76602 19.858 6.18002 17.92 6.18002 17.92C5.99733 17.317 5.60459 16.7993 5.07302 16.461C4.17302 15.842 5.14202 15.856 5.14202 15.856C5.78269 15.9438 6.34657 16.3235 6.66902 16.884C6.94195 17.3803 7.40177 17.747 7.94632 17.9026C8.49087 18.0583 9.07503 17.99 9.56902 17.713C9.61544 17.207 9.84055 16.7341 10.204 16.379C7.99002 16.128 5.66202 15.272 5.66202 11.449C5.64973 10.4602 6.01691 9.5043 6.68802 8.778C6.38437 7.91731 6.42013 6.97325 6.78802 6.138C6.78802 6.138 7.62502 5.869 9.53002 7.159C11.1639 6.71101 12.8882 6.71101 14.522 7.159C16.428 5.868 17.264 6.138 17.264 6.138C17.6336 6.97286 17.6694 7.91757 17.364 8.778C18.0376 9.50423 18.4045 10.4626 18.388 11.453C18.388 15.286 16.058 16.128 13.836 16.375C14.3153 16.8651 14.5612 17.5373 14.511 18.221C14.511 19.555 14.499 20.631 14.499 20.958C14.499 21.225 14.677 21.535 15.186 21.437C19.8265 19.8884 22.6591 15.203 21.874 10.3743C21.089 5.54565 16.9181 1.99888 12.026 2Z"
+                  fill="#333333"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/mohamedosamaabdelrehim/"
+              class="contact__social"
+              target="_blank"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="contact__social-color"
+                  d="M13 21H9V9H13V11C13.8526 9.91525 15.1456 9.26857 16.525 9.237C19.0056 9.25077 21.0072 11.2694 21 13.75V21H17V14.25C16.84 13.1326 15.8818 12.3036 14.753 12.306C14.2593 12.3216 13.7932 12.5378 13.4624 12.9046C13.1316 13.2715 12.9646 13.7573 13 14.25V21ZM7 21H3V9H7V21ZM5 7C3.89543 7 3 6.10457 3 5C3 3.89543 3.89543 3 5 3C6.10457 3 7 3.89543 7 5C7 5.53043 6.78929 6.03914 6.41421 6.41421C6.03914 6.78929 5.53043 7 5 7Z"
+                  fill="#333333"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="contact__formContent">
+          <h2 class="h2-heading">Let’s Work <br />Together!</h2>
+          <form action="results.html" method="get">
+            <div class="contact__inputs">
+              <input
+                class="contact__input"
+                name="fullName"
+                type="text"
+                placeholder="Full Name"
+                required
+              />
+              <input
+                class="contact__input"
+                name="telelephone"
+                type="tel"
+                placeholder="Phone No."
+                pattern="[0]{1}[1]{1}[0-2,5]{2}[0-9]{7}"
+                required
+              />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              name="message"
+              id="message"
+              placeholder="Your Message"
+              rows="1"
+              required
+            ></textarea>
+            <input type="submit" class="contact__button" value="Send Message" />
+          </form>
+        </div>
+      </section>
+      <!-- Ends Contacts -->
+      <!-- Starts Footer -->
+      <footer class="footer">© 2026 by Mohamed Osama</footer>
+      <!-- Ends Footer -->
+    </div>
+    <!-- Ends Container of the Page -->
+  </body>
+</html>

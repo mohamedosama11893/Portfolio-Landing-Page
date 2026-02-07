@@ -1,0 +1,72 @@
+/* Skills Components */
+
+.skills__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem 3rem;
+}
+
+.skills__title {
+  font-size: var(--font-size-38);
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.skills__years {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: var(--font-size-20);
+}
+
+.skills__image {
+  width: 10rem;
+  margin-top: 1rem;
+}
+
+.skills__column {
+  transition: var(--transition-timing);
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.skills__image {
+  fill: var(--color-text);
+}
+
+.python-path-one {
+  fill: var(--color-text);
+}
+
+.python-path-two {
+  fill: var(--color-text);
+}
+
+.skills__column:hover {
+  text-shadow: 0 0 2px var(--color-green);
+}
+
+.skills__column:nth-child(1):hover .skills__image {
+  fill: #f8622c;
+}
+.skills__column:nth-child(2):hover .skills__image {
+  fill: #633193;
+}
+.skills__column:nth-child(3):hover .skills__image {
+  fill: #ffdf02;
+}
+.skills__column:nth-child(4):hover .python-path-one {
+  fill: #0277bd;
+}
+.skills__column:nth-child(4):hover .python-path-two {
+  fill: #ffc107;
+}
+.skills__column:nth-child(5):hover .skills__image {
+  fill: #1876c7;
+}
+.skills__column:nth-child(6):hover .skills__image {
+  fill: #53c1dd;
+}
+
+/* End Skills Components */
